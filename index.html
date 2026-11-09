@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Frenzy Slot Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+
+    <h1>🍔 Food Frenzy Slots 🍕</h1>
+
+    
+    <!-- Display kung pila ang credits sa player -->
+    <div class="info-bar">
+      <p>Credits: <span id="credits">100</span></p>
+      <p>Bet: <span id="bet">10</span></p>
+    </div>
+
+   
+    <!-- Atong slots reels -->
+    <div class="slot-machine">
+      <div class="reel" id="reel1">🍕</div>
+      <div class="reel" id="reel2">🍔</div>
+      <div class="reel" id="reel3">🌮</div>
+    </div>
+
+    
+    <!-- Message na pwede ma change depende sa feedback -->
+    <p id="message">Press SPIN to play!</p>
+
+    
+    <!-- Atong buttons pang click -->
+    <div class="controls">
+      <button id="decreaseBet">− Bet</button>
+      <button id="spinBtn">SPIN</button>
+      <button id="increaseBet">+ Bet</button>
+    </div>
+
+    <button id="resetBtn">Reset Game</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
